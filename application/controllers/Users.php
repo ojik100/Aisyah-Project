@@ -37,6 +37,7 @@ class Users extends CI_Controller {
 			'level' => $level
 			);
 		$this->Users_models->input_data($data,'users');
+		
 		redirect('Users/index');
 	}
 	public function update()
