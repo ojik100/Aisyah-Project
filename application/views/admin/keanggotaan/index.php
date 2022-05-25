@@ -7,16 +7,15 @@
 <div class="content">
     <div class="animated fadeIn">
         <div class="row">
-
             <div class="col-md-12">
                 <div class="card">
                     <div class="card-header">
-                        <strong class="card-title">Belita</strong>
+                        <strong class="card-title">Keanggotaan</strong>
                     </div>
                     <div class="card">
                         <div class="card-body">
-                            <a href="<?= base_url() ?>Belita/add" class="btn btn-success btn-sm"><i
-                                    class="fa fa-plus"></i> Add Belita</a>
+                            <a href="<?= base_url() ?>Keanggotaan/add" class="btn btn-success btn-sm"><i
+                                    class="fa fa-plus"></i> Add Keanggotaan</a>
                         </div>
                     </div>
                     <div class="card-body">
@@ -28,48 +27,42 @@
                                 <thead>
                                     <tr>
                                         <th>No</th>
-                                        <th> Pemerikas</th>
-                                        <th> Belita</th>
+                                        <th>Batas Bawah</th>
+                                        <th>Batas Tengah</th>
+                                        <th>Batas Atas</th>
+                                        <th>Variabel</th>
                                         <th>JK</th>
-                                        <th>Tgl_lhr</th>
-                                        <th>Ayah</th>
-                                        <th>Ibu</th>
-                                        <th>Alamat</th>
-                                        <th>Kontak</th>
+                                        <th>Keterangan</th>
                                         <th >Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <?php 
 									$no = 1;
-									foreach($belita as $u){ 
+									foreach($keanggotaan as $u){ 
 									?>
                                     <tr>
                                         <td><?= $no++ ?></td>
-										<td><?= $u->nama_pemeriksa ?></td>
-										<td><?= $u->nama_belita ?></td>
+										
+										<td><?= $u->batas_bawah ?></td>
+										<td><?= $u->batas_tengah ?></td>
+										<td><?= $u->batas_atas ?></td>
+										<td><?= $u->variabel ?></td>
 										<td><?= $u->jk ?></td>
-										<td><?= $u->tgl_lhr ?></td>
-										<td><?= $u->nama_ayah ?></td>
-										<td><?= $u->nama_ibu ?></td>
-										<td><?= $u->alamat ?></td>
-										<td><?= $u->no_ortu ?></td>
+										<td><?= $u->keterangan ?></td>
+										
                                         <td>
-                                            <a href="<?= base_url() ?>Belita/edit/<?= $u->id ?>" class="btn btn-warning btn-sm"><i class="fa fa-edit"></i></a> |
-                                            <a href="<?= base_url() ?>Belita/hapus/<?= $u->id ?>" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></a>
+                                            <!-- <a href="<?= base_url() ?>Keanggotaan/edit/<?= $u->id ?>" class="btn btn-warning btn-sm"><i class="fa fa-edit"></i></a> | -->
+                                            <a href="<?= base_url() ?>Keanggotaan/hapus/<?= $u->id ?>" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></a>
                                         </td>
                                     </tr>
-                                    <?php } ?>
-
-
+                                    <?php } ?> 
                                 </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
     </div><!-- .animated -->
 </div><!-- .content -->

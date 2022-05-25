@@ -35,6 +35,7 @@ class Belita extends CI_Controller {
 		$id_users = $this->input->post('id_users');
 		$nama_pemeriksa = $this->input->post('nama_pemeriksa');
 		$nama_belita = $this->input->post('nama_belita');
+		$jk = $this->input->post('jk');
 		$tgl_lhr = $this->input->post('tgl_lhr');
 		$nama_ayah = $this->input->post('nama_ayah');
 		$nama_ibu = $this->input->post('nama_ibu');
@@ -45,6 +46,7 @@ class Belita extends CI_Controller {
 			'id_users' => $id_users,
 			'nama_pemeriksa' => $nama_pemeriksa,
 			'nama_belita' => $nama_belita,
+			'jk' => $jk,
 			'tgl_lhr' => $tgl_lhr,
 			'nama_ayah' => $nama_ayah,
 			'nama_ibu' => $nama_ibu,
@@ -61,6 +63,7 @@ class Belita extends CI_Controller {
 		$id_users = $this->input->post('id_users');
 		$nama_pemeriksa = $this->input->post('nama_pemeriksa');
 		$nama_belita = $this->input->post('nama_belita');
+		$jk = $this->input->post('jk');
 		$tgl_lhr = $this->input->post('tgl_lhr');
 		$nama_ayah = $this->input->post('nama_ayah');
 		$nama_ibu = $this->input->post('nama_ibu');
@@ -71,6 +74,7 @@ class Belita extends CI_Controller {
 			'id_users' => $id_users,
 			'nama_pemeriksa' => $nama_pemeriksa,
 			'nama_belita' => $nama_belita,
+			'jk' => $jk,
 			'tgl_lhr' => $tgl_lhr,
 			'nama_ayah' => $nama_ayah,
 			'nama_ibu' => $nama_ibu,

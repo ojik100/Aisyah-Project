@@ -37,4 +37,4 @@
     <script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@3.9.0/dist/fullcalendar.min.js"></script>
 	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
-  <script src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+  <script src="cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>

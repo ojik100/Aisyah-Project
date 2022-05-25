@@ -17,22 +17,22 @@
                             <a href="<?= base_url() ?>Belita"><i class=" menu-icon fa fa-users"></i>Belita </a>
                             <a href="<?= base_url() ?>Indikator"><i class="menu-icon fa fa-bar-chart-o"></i>Indikator </a>
                             <a href="<?= base_url() ?>Status_gizi"><i class="menu-icon fa fa-pagelines"></i>Status Gizi </a>
-                            <a href="index.html"><i class="menu-icon fa fa-users"></i>Keanggotaan </a>
-                            <a href="index.html"><i class="menu-icon fa fa-check-square-o"></i>Penilaian </a>
+                            <a href="<?= base_url() ?>Keanggotaan"><i class="menu-icon fa fa-users"></i>Keanggotaan </a>
+                            <a href="<?= base_url() ?>Penilaian"><i class="menu-icon fa fa-check-square-o"></i>Penilaian </a>
                             <?php endif;?>
                             <?php if($this->session->userdata('akses') =="Bidan"):?>
                             <a href="<?= base_url() ?>Belita"><i class=" menu-icon fa fa-users"></i>Belita </a>
                             <a href="<?= base_url() ?>Indikator"><i class="menu-icon fa fa-bar-chart-o"></i>Indikator </a>
                             <a href="<?= base_url() ?>Status_gizi"><i class="menu-icon fa fa-pagelines"></i>Status Gizi </a>
-                            <a href="index.html"><i class="menu-icon fa fa-users"></i>Keanggotaan </a>
-                            <a href="index.html"><i class="menu-icon fa fa-check-square-o"></i>Penilaian </a>
+                            <a href="<?= base_url() ?>Keanggotaan"><i class="menu-icon fa fa-users"></i>Keanggotaan </a>
+                            <a href="<?= base_url() ?>Penilaian"><i class="menu-icon fa fa-check-square-o"></i>Penilaian </a>
                             <?php endif;?>
                             <?php if($this->session->userdata('akses') =="Petugas"):?>
                             <a href="<?= base_url() ?>Belita"><i class=" menu-icon fa fa-users"></i>Belita </a>
                             <a href="<?= base_url() ?>Indikator"><i class="menu-icon fa fa-bar-chart-o"></i>Indikator </a>
                             <a href="<?= base_url() ?>Status_gizi"><i class="menu-icon fa fa-pagelines"></i>Status Gizi </a>
-                            <a href="index.html"><i class="menu-icon fa fa-users"></i>Keanggotaan </a>
-                            <a href="index.html"><i class="menu-icon fa fa-check-square-o"></i>Penilaian </a>
+                            <a href="<?= base_url() ?>Keanggotaan"><i class="menu-icon fa fa-users"></i>Keanggotaan </a>
+                            <a href="<?= base_url() ?>Penilaian"><i class="menu-icon fa fa-check-square-o"></i>Penilaian </a>
                             <?php endif;?>
 
                         </li>
@@ -40,7 +40,7 @@
 						<?php if($this->session->userdata('akses') =="Admin"):?>
                         <li class="menu-title">Laporan</li><!-- /.menu-title -->
                         <li>
-                            <a href="index.html"><i class="menu-icon fa fa-print"></i>Laporan </a>
+                            <a href="#"><i class="menu-icon fa fa-print"></i>Laporan </a>
                         </li>
 						<?php endif;?>
                         <li class="menu-title">Pengaturan</li><!-- /.menu-title -->

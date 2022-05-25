@@ -33,6 +33,12 @@
                                     <input type="text" class="form-control" placeholder="Enter nama belita"
                                         name="nama_belita" id="" value="<?= $u->nama_belita ?>" required>
                                 </div>
+								<div>
+                                    <label for="">Jenis Kelamin</label><br>
+                                    <input type="checkbox" name="jk" id="" value="L"> Laki-Laki
+                                    <input type="checkbox" name="jk" id="" value="P"> Perempuan
+
+                                </div>
                                 <div>
                                     <label for="">Tanggal Lahir</label>
                                     <input type="date" class="form-control" placeholder="" name="tgl_lhr" id=""

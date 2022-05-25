@@ -33,6 +33,12 @@
                                     <input type="date" class="form-control" placeholder="" name="tgl_lhr" id=""
                                         required>
                                 </div>
+								<div>
+                                    <label for="">Jenis Kelamin</label><br>
+                                    <input type="checkbox" name="jk" id="" value="L"> Laki-Laki
+                                    <input type="checkbox" name="jk" id="" value="P"> Perempuan
+
+                                </div>
                                 <div>
                                     <label for="">Nama Ayah</label>
                                     <input type="text" class="form-control" placeholder="Enter ayah" name="nama_ayah"
