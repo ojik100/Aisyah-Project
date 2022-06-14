@@ -38,3 +38,17 @@
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@3.9.0/dist/fullcalendar.min.js"></script>
 	<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
   <script src="cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+
+  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+</body>
+
+</html>
+<script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+  <script src="//cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+  <script>
+  $(document).ready(function() {
+    $('.table').DataTable();
+  } );
+  </script>
+
