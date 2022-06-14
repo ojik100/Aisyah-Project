@@ -38,10 +38,10 @@
                         </li>
 
 						<?php if($this->session->userdata('akses') =="Admin"):?>
-                        <li class="menu-title">Laporan</li><!-- /.menu-title -->
+                        <!-- <li class="menu-title">Laporan</li>
                         <li>
-                            <!-- <a href="#"><i class="menu-icon fa fa-print"></i>Laporan </a> -->
-                        </li>
+                            <a href="#"><i class="menu-icon fa fa-print"></i>Laporan </a>
+                        </li> -->
 						<?php endif;?>
                         <li class="menu-title">Pengaturan</li><!-- /.menu-title -->
                         <li>
