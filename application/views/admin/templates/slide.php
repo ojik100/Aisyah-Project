@@ -34,14 +34,17 @@
                             <a href="<?= base_url() ?>Keanggotaan"><i class="menu-icon fa fa-users"></i>Keanggotaan </a>
                             <a href="<?= base_url() ?>Penilaian"><i class="menu-icon fa fa-check-square-o"></i>Penilaian </a>
                             <?php endif;?>
-
+								
                         </li>
 
+
+						
+
 						<?php if($this->session->userdata('akses') =="Admin"):?>
-                        <!-- <li class="menu-title">Laporan</li>
+                         <li class="menu-title">Laporan</li>
                         <li>
-                            <a href="#"><i class="menu-icon fa fa-print"></i>Laporan </a>
-                        </li> -->
+                            <a href="<?= base_url() ?>Laporan"><i class="menu-icon fa fa-print"></i>Laporan </a>
+                        </li>
 						<?php endif;?>
                         <li class="menu-title">Pengaturan</li><!-- /.menu-title -->
                         <li>
